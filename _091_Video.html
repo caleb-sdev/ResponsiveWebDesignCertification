@@ -1,0 +1,42 @@
+<!--
+Paso 13
+El último elemento source que agregarás será para el tipo MIME video/quicktime.
+
+QuickTime es una arquitectura multimedia extensible creada por Apple, que soporta la reproducción, transmisión, codificación y transcodificación de una variedad de formatos de medios digitales. No es tan popular como el formato MP4, pero puede que la necesites para soporte de aplicaciones heredadas.
+
+Debajo de tu tercer elemento source, agrega un cuarto elemento source y asígnale un atributo src con el valor https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov y un atributo type con el valor video/quicktime.
+
+¡Felicidades! Completaste el Taller de Reproductor de Video HTML.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with the HTML Video Element</title>
+</head>
+<body>
+  <h1>Working with the HTML Video Element</h1>
+  <video
+    width="640"
+    loop
+    controls
+    muted
+    poster="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
+  >
+    <source
+      src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+      type="video/mp4"
+    >
+    <source
+      src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm"
+      type="video/webm"
+    >
+    <source
+      src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg"
+      type="video/ogg"
+    >
+    <source src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov" type="video/quicktime">
+  </video>
+</body>
+</html>

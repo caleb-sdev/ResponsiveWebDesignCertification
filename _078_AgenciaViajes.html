@@ -1,0 +1,66 @@
+<!--
+Crea una página de agencia de viajes
+Construye una aplicación que sea funcionalmente similar a este es el proyecto de ejemplo. Intenta no copiar el proyecto de ejemplo, dale tu propio estilo personal.
+
+Objetivo: Cumplir con las historias de usuario a continuación y pasar todas las pruebas para completar el laboratorio.
+
+Historias de usuario:
+
+Debe tener una declaración DOCTYPE.
+Debes tener un elemento html con el atributo lang configurado a en.
+Debe tener un elemento head que contenga un elemento vacío meta con charset establecido a utf-8 y un title con el texto Travel Agency Page.
+Debería tener una etiqueta meta en su elemento head que contenga una descripción corta de su sitio web para SEO.
+Debe tener un elemento h1 para presentar los destinos de viaje.
+Debe tener un párrafo debajo del elemento h1 que introduzca las oportunidades de viaje.
+Debe tener un elemento h2 con el texto Packages.
+Debe tener un elemento p que introduzca brevemente los diversos paquetes.
+Debe tener un elemento de lista desordenada con dos elementos de lista. Los dos elementos de la lista deben tener el texto Group Travels y Private Tours, respectivamente. El texto de cada elemento de la lista debe estar encerrado en un elemento de anclaje.
+Debe tener un elemento h2 con el texto Top Itineraries.
+Debe tener al menos tres elementos figure, cada uno con un elemento de anclaje y un elemento figcaption.
+Los tres elementos de anclaje deben tener un elemento img con un atributo alt apropiado y un atributo src configurado a una imagen válida como su contenido. Puede usar https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg, https://cdn.freecodecamp.org/curriculum/labs/alps.jpg y https://cdn.freecodecamp.org/curriculum/labs/sea.jpg si desea.
+Todos sus cinco elementos de anclaje deben tener un atributo href con el valor de https://www.freecodecamp.org/learn y un atributo target con el valor de _blank
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Travel Agency Page</title>
+  <meta name="description" content="Explore amazing travel destinations and discover exclusive travel packages around the world.">
+</head>
+<body>
+
+  <h1>Explore Our Travel Destinations</h1>
+  <p>Discover exciting travel opportunities and unforgettable experiences across the globe.</p>
+
+  <h2>Packages</h2>
+  <p>Choose from our variety of travel packages designed to suit every traveler’s needs.</p>
+  <ul>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+  </ul>
+
+  <h2>Top Itineraries</h2>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="The Colosseum in Rome">
+    </a>
+    <figcaption>Historic Rome Adventure</figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Snowy Alps mountains">
+    </a>
+    <figcaption>Alpine Mountain Escape</figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical sea destination">
+    </a>
+    <figcaption>Tropical Paradise Getaway</figcaption>
+  </figure>
+
+</body>
+</html>
