@@ -1,0 +1,25 @@
+<!--
+Paso 6
+Agrega encrypted-media, gyroscope y web-share a los valores existentes en el atributo allow.
+
+Estos tres permitirán el uso de extensiones de medios cifrados para proteger el video, otorgar acceso a los sensores de movimiento y orientación del dispositivo, y permitir compartir el contenido del iframe a través de los diálogos nativos de compartir del dispositivo.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Videos in an iframe</title>
+  </head>
+  <body>
+    <h1>iframe Video Display</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/I0_951_MPE0"
+      allow="accelerometer autoplay clipboard-write encrypted-media gyroscope web-share"
+    >
+
+    </iframe>
+  </body>
+</html>
