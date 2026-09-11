@@ -1,0 +1,35 @@
+<!--
+Paso 10
+Has usado un archivo de video con una extensión de archivo mp4, y necesitas indicarle al navegador eso para que sepa cómo leer el archivo.
+
+Usarás el atributo type para especificar el tipo MIME video/mp4.
+
+MIME (Multipurpose Internet Mail Extensions) es un estándar para describir documentos en otras formas además de texto ASCII, por ejemplo, audio, video e imágenes.
+
+MP4, formalmente conocido como MPEG-4 Part 14, es un formato contenedor de multimedia digital. Se usa ampliamente para almacenar video y audio, pero también puede incluir otros tipos de datos como subtítulos e imágenes fijas. Los archivos MP4 están diseñados para la transmisión por Internet y son compatibles con muchos dispositivos y plataformas.
+
+Ahora, agrega el atributo type y el valor video/mp4.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with the HTML Video Element</title>
+</head>
+<body>
+  <h1>Working with the HTML Video Element</h1>
+  <video
+    width="640"
+    loop
+    controls
+    muted
+    poster="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
+  >
+    <source
+      src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+      type="video/mp4"
+    >
+  </video>
+</body>
+</html>

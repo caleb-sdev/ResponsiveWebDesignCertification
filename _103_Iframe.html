@@ -1,0 +1,32 @@
+<!--
+Paso 5
+Uno de los atributos es allow. Es como una lista de permisos que le dice al navegador qué funciones puede usar el iframe.
+
+Aquí tienes un elemento iframe con el atributo allow:
+
+<iframe
+  allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share"
+></iframe>
+Agrega el atributo allow con el valor accelerometer, autoplay y clipboard-write.
+
+accelerometer permite que el iframe use sensores de movimiento para que pueda detectar cosas como la inclinación y rotación del dispositivo. autoplay permite que el video comience a reproducirse automáticamente, y clipboard-write permite que el iframe escriba datos en el portapapeles del usuario.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Videos in an iframe</title>
+  </head>
+  <body>
+    <h1>iframe Video Display</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/I0_951_MPE0"
+      allow="accelerometer; autoplay; clipboard-write"
+    >
+
+    </iframe>
+  </body>
+</html>
